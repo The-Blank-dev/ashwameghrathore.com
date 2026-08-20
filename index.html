@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashwamegh Rathore</title>
+<meta name="description" content="Ashwamegh Rathore — Software Engineer & Entrepreneur. Director at Metafab Group of Companies, previously SDE 1 at Uber. IIT Kharagpur alumnus.">
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --bg: #fafaf9;
+    --bg-alt: #ffffff;
+    --text: #1c1c1a;
+    --text-muted: #5c5c58;
+    --accent: #2f6f4f;
+    --border: #e5e3df;
+    --max-width: 720px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14140f;
+      --bg-alt: #1b1b16;
+      --text: #f2f1ec;
+      --text-muted: #a3a29a;
+      --accent: #7fd6a5;
+      --border: #2c2c25;
+    }
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 6rem 1.5rem 4rem;
+  }
+
+  header.hero {
+    margin-bottom: 3.5rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem;
+    letter-spacing: -0.02em;
+  }
+
+  .tagline {
+    font-size: 1.15rem;
+    color: var(--text-muted);
+    margin: 0 0 0.6rem;
+  }
+
+  .location {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  section {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin: 0 0 1.1rem;
+    font-weight: 600;
+  }
+
+  .about p {
+    font-size: 1.02rem;
+    margin: 0;
+    max-width: 60ch;
+  }
+
+  .experience-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .experience-item:last-child {
+    border-bottom: none;
+  }
+
+  .experience-role {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .experience-company {
+    color: var(--text-muted);
+    font-size: 0.92rem;
+  }
+
+  .experience-period {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.92rem;
+    background: var(--bg-alt);
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+
+  .links a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .links svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+  }
+
+  footer {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 480px) {
+    main { padding: 4rem 1.25rem 3rem; }
+    h1 { font-size: 1.9rem; }
+    .experience-item { flex-direction: column; align-items: flex-start; gap: 0.15rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <h1>Ashwamegh Rathore</h1>
+    <p class="tagline">Software Engineer &amp; Entrepreneur</p>
+    <p class="location">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14" aria-hidden="true">
+        <path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/>
+        <circle cx="12" cy="10" r="2.5"/>
+      </svg>
+      Jharkhand, India
+    </p>
+  </header>
+
+  <section class="about">
+    <h2>About</h2>
+    <p>
+      I'm a software engineer and entrepreneur. I'm the Director at Metafab Group of Companies,
+      and previously worked as a Software Development Engineer (SDE 1) at Uber. I'm an alumnus of
+      the Indian Institute of Technology, Kharagpur.
+    </p>
+  </section>
+
+  <section class="experience">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <div>
+        <div class="experience-role">Director</div>
+        <div class="experience-company">Metafab Group of Companies</div>
+      </div>
+      <div class="experience-period">Current</div>
+    </div>
+    <div class="experience-item">
+      <div>
+        <div class="experience-role">SDE 1</div>
+        <div class="experience-company">Uber</div>
+      </div>
+      <div class="experience-period">Previous</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/ashwamegh-rathore-242193194/" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/The-Blank-dev" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.4-3.87-1.4-.53-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 Ashwamegh Rathore
+</footer>
+</body>
+</html>
